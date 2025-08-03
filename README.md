@@ -8,7 +8,7 @@ Hosted on GitHub Pages.
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio on GitHub Pages](https://your-charles.github.io/portfolio/)
+👉 [View Portfolio on GitHub Pages]([https://your-charles.github.io/portfolio/](https://charlesomondi-dot.github.io/omondi/))..
 
 ---
 
@@ -134,4 +134,5 @@ Consider adding a proper license (MIT, GPL, etc.) if you want to formalize it.
 - **You** – for making it awesome 🎉
 
 ---
+
 
