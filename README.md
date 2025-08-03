@@ -47,8 +47,8 @@ To run this project locally, follow these simple steps.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
+git clone [https://charlesomondi-dot.github.io/omondi/]
+cd index.html
 ```
 
 ### 2. Open in Browser
@@ -134,6 +134,7 @@ Consider adding a proper license (MIT, GPL, etc.) if you want to formalize it.
 - **You** – for making it awesome 🎉
 
 ---
+## 2025 Charles Omondi. All rights reserved.
 
 
 
