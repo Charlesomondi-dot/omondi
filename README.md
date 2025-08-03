@@ -135,13 +135,3 @@ Consider adding a proper license (MIT, GPL, etc.) if you want to formalize it.
 
 ---
 
-## ✅ What to Do Next
-
-1. Replace `your-username` with your actual GitHub username
-2. Add a `preview.png` screenshot (optional but good for sharing)
-3. Push the code to GitHub and enable GitHub Pages under repository settings
-4. Share your portfolio link on your CV, LinkedIn, or job applications
-
----
-
-*If you'd like, I can also help generate a professional `favicon.png` from your initials or a logo. Would you like that?*
