@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CHARLES OMONDI - Portfolio</title>
+   <link rel="icon" type="image/png" href="assets/rain.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #075a18;
+      color: #fff;
+      line-height: 1.6;
+      font-size: 18px;
+      scroll-behavior: smooth;
+    }
+    a {
+      color: #05300f;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #263327;
+    }
+    nav {
+      background: #0486254f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav .logo a {
+      font-size: 2rem;
+      font-weight: 2000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+    .home {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #064016;
+}
+
+.home h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #d4fcd2;
+}
+
+.home-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.home-images img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.home-images img:hover {
+  transform: scale(1.05);
+}
+
+
+    section {
+      padding: 4rem 2rem;
+    }
+    section h2 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    section h3 {
+      font-size: 2rem;
+      margin: 1.5rem 0 1rem;
+    }
+    section p {
+      max-width: 800px;
+      margin: 0 auto 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+    ul.section-links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 0;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+    ul.section-links li a {
+      background: #0077b6;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    ul.section-links li a:hover {
+      background: #005f73;
+    }
+    .social-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #005f73;
+}
+
+    .btn-download {
+      background: #012b08;
+      color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1.2rem;
+      transition: background 0.3s ease;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .btn-download:hover {
+      background: #056e1f;
+    }
+    footer {
+      background: #011606;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo"><a href="#Home"><b>HARNS</b></a></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="home" class="hero-section">
+  <h2><b>Hi, I'm Charles Omondi 👋</b></h2>
+  <p>Software Developer | System Administrator | UI/UX Designer</p>
+  <div class="home-images">
+    <img src="assets/rain.png" alt="Charles Omondi Professional" />
+  </div>
+</section>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate Software Engineer with a focus on secure, innovative tech solutions. I thrive in dynamic environments and enjoy tackling complex challenges.</p>
+      <p><i>Let's quick dive into my profile</i></p>>
+      <ul class="section-links">
+        <li><a href="#projects">View Projects</a></li>
+        <li><a href="#skills">Explore Skills</a></li>
+        <li><a href="#achievements">See Achievements</a></li>
+        <li><a href="#resume">Download Resume</a></li>
+      </ul>
+</section>
+    <section id="projects" class="projects">
+      <h2>Highlighted Projects</h2>
+      <div class="project">
+        <h3>Mobile Applications Developer</h3>
+        <p>Developed and deployed cross-platform mobile apps using Flutter with Firebase backend. Designed UI using Figma and Adobe XD.</p>
+      </div>
+      <div class="project">
+        <h3>Penetration Testing - Protego Security</h3>
+        <p>Performed vulnerability assessments and provided security improvement recommendations to the development team.</p>
+      </div>
+      <div class="project">
+        <h3>Digital Hub - SJTTID</h3>
+        <p>Led a digital hub initiative offering ICT skills training, innovation support, and internet-enabled workspaces.</p>
+      </div>
+      <div class="project">
+        <h3>Branding for Blessed Bread Company</h3>
+        <p>Designed the company's logo and managed their tech infrastructure and email systems.</p>
+      </div>
+      <div class="project">
+        <h3>System Administration - SJTTID</h3>
+        <p>Installed hardware/software, secured institutional systems, and provided user training and documentation.</p>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> C, C++, C#, Python, PHP, Kotlin, JavaScript</li>
+        <li><strong>Web Development:</strong> HTML, CSS, WordPress</li>
+        <li><strong>UI/UX Tools:</strong> Adobe XD, Figma</li>
+        <li><strong>Database:</strong> SQL, Firebase</li>
+        <li><strong>Cybersecurity:</strong> CEH, Cisco Networking Basics</li>
+        <li><strong>Version Control:</strong> Git & GitHub</li>
+      </ul>
+    </section>
+    <section id="achievements" class="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>🏅 Bronze Medal – WorldSkills Kenya 2024 (Mobile App Dev)</li>
+        <li>📜 Innovation Fair Recognition – University of Eldoret 2024</li>
+        <li>💡 Digital Hub established and approved at SJTTID</li>
+        <li>🛠 Revamped entire institution desktop lab setup</li>
+      </ul>
+    </section>
+    <section id="resume" class="resume">
+      <h2>Resume</h2>
+      <p><strong>Career Objective:</strong> Adaptable and enthusiastic Software Engineer, with a passion for secure, innovative tech solutions.</p>
+      <h3>Education</h3>
+      <ul>
+        <li><strong>BSc Computer Science</strong> – University of Eldoret</li>
+        <li><strong>KCSE:</strong> Oriwo Boys' High School – AGP MODE</li>
+        <li><strong>KCPE:</strong> Siany Primary School – AGP MODE</li>
+      </ul>
+      <h3>Professional Experience</h3>
+      <ul>
+        <li><strong>ICT Officer Intern</strong> – SJTTID (Mar 2025 – Present)</li>
+        <li><strong>UI/UX Volunteer</strong> – CNCF Nairobi (Jan – Jul 2025)</li>
+        <li><strong>Junior Pen Tester</strong> – Protego Security (2024 – 2025)</li>
+        <li><strong>System Admin Attachee</strong> – SJTTID (May – Aug 2024)</li>
+        <li><strong>ICT Officer (Part-time)</strong> – Blessed Bread Co. (2023 – 2024)</li>
+      </ul>
+      <h3>Certifications</h3>
+      <ul>
+        <li>Certified Ethical Hacker (CEH)</li>
+        <li>Cisco Networking Basics</li>
+        <li>Bronze Medal - WorldSkills Kenya</li>
+        <li>Certificate of Participation - WorldSkills Kenya</li>
+        <li>Innovation Fair Certificate – UoE</li>
+      </ul>
+      <h3>Hobbies & Interests</h3>
+      <ul>
+        <li></strong>Programming</strong> I love sitting and formulating a lot of solutions to real worl problems.</li>
+        <li><strong>Swimming</strong> Born by the lakeside as a Luo in nyanza kenya since childhood it has formed basis of me when it's hot.</li>
+        <li><strong>Hiking</strong> I developed this while i was in the campus in the streets of Eldoret with my friends.</li>
+        <li><strong>Solving puzzles</strong> Been a monopoly participant i also happen to love more of this i even participate in all of this in my linkedin account.</li>
+        <li><strong>Gaming</strong>Gaming, i think this is every developer's game when sometimes algorithmns try to shut you down and you have to put up yourself back again.</li>
+        <li><strong>Learning tech trands</strong>Learning tech trends also puts me ahead in the world of technology been that am a cyber security enthuasist.</li>
+      </ul>
+      <a class="btn-download" href="assets/charles-omondi-cv.pdf" download>📄 Download Full CV</a>
+    </section>
+   <section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> charlesomondi232@gmail.com</p>
+  <p><strong>Phone:</strong> +254 719501832</p>
+  <p><strong>Location:</strong> Kisumu, Kenya</p>
+
+  <div class="social-links">
+    <a href="https://linkedin.com/in/charles-o-541646245/" target="_blank">LinkedIn</a>
+    <a href="https://x.com/CHARLES63006617" target="_blank">Twitter</a>
+    <a href="https://www.facebook.com/profile.php?id=100074876663026" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/charles_harns?" target="_blank">Instagram</a>
+    <a href="https://github.com/charlesomondi-dot" target="_blank">GitHub</a>
+  </div>
+</section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Charles Omondi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
