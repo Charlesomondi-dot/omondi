@@ -91,7 +91,7 @@ To host your portfolio on GitHub Pages:
 5. Click **Save**
 
 Your site will be available at:  
-`https://your-username.github.io/portfolio`
+`https://your-username.github.io/portfolio` // # that is if you have adapted it to be your own you use you your-username
 
 ---
 
@@ -135,6 +135,5 @@ Consider adding a proper license (MIT, GPL, etc.) if you want to formalize it.
 
 ---
 ## 2025 Charles Omondi. All rights reserved.
-
 
 
